@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>Command Transactions</title>
+    <authors>Jonatan Pedersen</authors>
+    <owners>Jonatan Pedersen</owners>
+    <licenseUrl>https://github.com/Bocami/command-transactions/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Bocami/command-transactions</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Command Transactions</description>
+    <copyright>Copyright 2014</copyright>
+    <tags>Command Query Separation</tags>
+    <dependencies>
+      <dependency id="Bocami.Practices.Command" version="1.0" />
+      <dependency id="Bocami.Practices.DecoratorPattern" version="1.0" />
+    </dependencies>
+  </metadata>
+</package>
