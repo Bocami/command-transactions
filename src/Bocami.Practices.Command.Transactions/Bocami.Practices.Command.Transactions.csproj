@@ -30,20 +30,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bocami.Practices.Command">
-      <HintPath>..\packages\Bocami.Practices.Command.1.0.5307.22274\lib\net451\Bocami.Practices.Command.dll</HintPath>
+    <Reference Include="Bocami.Practices.Command, Version=1.0.5313.22017, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Bocami.Practices.Command.1.0.0\lib\net451\Bocami.Practices.Command.dll</HintPath>
     </Reference>
-    <Reference Include="Bocami.Practices.DecoratorPattern">
-      <HintPath>..\packages\Bocami.Practices.DecoratorPattern.1.0.5290.35142\lib\net45\Bocami.Practices.DecoratorPattern.dll</HintPath>
+    <Reference Include="Bocami.Practices.Decorator">
+      <HintPath>..\packages\Bocami.Practices.Decorator.1.0.0\lib\net45\Bocami.Practices.Decorator.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Transactions" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
