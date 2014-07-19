@@ -8,12 +8,12 @@ namespace Bocami.Practices.Command.Transactions
     /// Decorates an ICommandHandler of TCommand inside a TransactionScope
     /// </summary>
     /// <typeparam name="TCommand"></typeparam>
-    public class TransactionScopeCommandHandler<TCommand> : ICommandHandler<TCommand>, IDecorator<ICommandHandler<TCommand>>
+    public class TransactionScopeCommandHandlerDecorator<TCommand> : ICommandHandler<TCommand>, IDecorator<ICommandHandler<TCommand>>
         where TCommand : ICommand
     {
         private readonly ICommandHandler<TCommand> commandHandler;
 
-        public TransactionScopeCommandHandler(ICommandHandler<TCommand> commandHandler)
+        public TransactionScopeCommandHandlerDecorator(ICommandHandler<TCommand> commandHandler)
         {
             if (commandHandler == null)
                 throw new ArgumentNullException("commandHandler");
