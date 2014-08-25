@@ -5,7 +5,7 @@ using System.Transactions;
 namespace Bocami.Practices.Command.Transactions
 {
     /// <summary>
-    /// Decorates an ICommandHandler of TCommand inside a TransactionScope
+    /// Decorates an ICommandHandler of TCommand with a TransactionScope
     /// </summary>
     /// <typeparam name="TCommand"></typeparam>
     public class TransactionScopeCommandHandlerDecorator<TCommand> : ICommandHandler<TCommand>, IDecorator<ICommandHandler<TCommand>>
