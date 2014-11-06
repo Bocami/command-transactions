@@ -9,6 +9,10 @@ Decorates an ICommandHandler of TCommand with a TransactionScope.
 Install-Package Bocami.Practices.Command.Transactions -Source https://www.myget.org/F/bocami/
 ```
 
+## Dependencies 
+* [Bocami.Practices.Command (≥ 1.0.0)](https://github.com/Bocami/command)
+* [Bocami.Practices.Decorator (≥ 1.0.0)](https://github.com/Bocami/decorator)
+ 
 ## Usage
 
 ```csharp
